@@ -8,13 +8,13 @@ We collected motion sensor data for four activities (Jumping, Standing, Still, W
 
 ## Dataset
 
-- **Total Recordings:** 43 sessions across 4 activities
+- **Total Recordings:** 50 sessions across 4 activities
 - **Total Data Points:** 57,870 sensor readings
 - **Activities Recorded:**
-  - Jumping: 10 sessions (12,207 rows)
-  - Standing: 11 sessions (15,164 rows)
-  - Still: 9 sessions (12,915 rows)
-  - Walking: 13 sessions (17,584 rows)
+  - Jumping: 11 sessions (12,207 rows)
+  - Standing: 13 sessions (15,164 rows)
+  - Still: 11 sessions (12,915 rows)
+  - Walking: 15 sessions (17,584 rows)
 - **Sampling Rate:** 100 Hz
 - **Features:** 59 time-domain + frequency-domain features
 
@@ -115,17 +115,10 @@ Optional:
 
 ## Report
 
-See `Report.md` for comprehensive project documentation including:
+See `Report.pdf` for comprehensive project documentation including:
 - Background and motivation
 - Data collection methodology
 - Model implementation details
 - Results and analysis
 - Discussion and future improvements
 
-## Contact
-
-[Group member names and contact information]
-
-## License
-
-This project is for educational purposes as part of a coursework assignment.
