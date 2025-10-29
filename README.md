@@ -112,13 +112,3 @@ predictions, _ = hmm_model.predict_sequences([X_scaled])
 
 Optional:
 - hmmlearn (for alternative HMM implementation)
-
-## Report
-
-See `Report.pdf` for comprehensive project documentation including:
-- Background and motivation
-- Data collection methodology
-- Model implementation details
-- Results and analysis
-- Discussion and future improvements
-
