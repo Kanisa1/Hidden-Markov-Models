@@ -1,0 +1,207 @@
+{
+  "model_type": "HMM",
+  "overall_accuracy": 0,
+  "per_class_sensitivity": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "per_class_specificity": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "per_class_precision": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "per_class_f1": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      2,
+      1
+    ],
+    [
+      15,
+      0,
+      1,
+      0
+    ],
+    [
+      11,
+      1,
+      2,
+      0
+    ],
+    [
+      16,
+      1,
+      0,
+      2
+    ]
+  ],
+  "transition_matrix": [
+    [
+      2131224459,
+      596130788,
+      841424685,
+      399874685
+    ],
+    [
+      811739896,
+      133031956,
+      131547620,
+      167735533
+    ],
+    [
+      713254779,
+      103440215,
+      121556986,
+      169477402
+    ],
+    [
+      1181409772,
+      178955794,
+      206963429,
+      209449380
+    ]
+  ],
+  "initial_probabilities": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "activity_mapping": {
+    "Jumping": 0,
+    "Standing": 1,
+    "Still": 2,
+    "Walking": 3
+  },
+  "reverse_activity_mapping": {
+    "0": "Jumping",
+    "1": "Standing",
+    "2": "Still",
+    "3": "Walking"
+  },
+  "hmm_training_successful": 1,
+  "test_set_results": {
+    "Test Set 1": {
+      "accuracy": 0,
+      "sensitivity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "specificity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "precision": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "f1_scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          1
+        ],
+        [
+          6,
+          0,
+          1,
+          0
+        ],
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          9,
+          1,
+          0,
+          1
+        ]
+      ]
+    },
+    "Test Set 2": {
+      "accuracy": 0,
+      "sensitivity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "specificity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "precision": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "f1_scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          2,
+          0
+        ],
+        [
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          1,
+          2,
+          0
+        ],
+        [
+          7,
+          0,
+          0,
+          1
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "rows_before": 69158,
+  "rows_after": 69158,
+  "removed_timestamp_or_activity": 0,
+  "activity_counts": {
+    "standing": 17896,
+    "walking": 17584,
+    "jumping": 14908,
+    "still": 15652,
+    "running": 3118
+  },
+  "columns": [
+    "time",
+    "seconds_elapsed",
+    "z",
+    "y",
+    "x",
+    "Sensor",
+    "SourceFile",
+    "Activity",
+    "timestamp",
+    "activity_clean",
+    "timestamp_iso"
+  ]
+}
